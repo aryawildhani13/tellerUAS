@@ -6,8 +6,8 @@ public class bank{
 	static int setor, tarik, transfer;
 	static char nasabahTf, nasabahExit = 'T';
 	static String[][] user =  {
-    {"1.","Agus","malang","08123456789","sumriatin"},
-    {"2.","arip","malang","08232223344","suliatin"},
+    	{"1.","Agus","malang","08123456789","sumriatin"},
+    	{"2.","arip","malang","08232223344","suliatin"},
    	{"3.","samsul","malang","08432432424","bella"},
    	{"","", "", "", ""} 
    	};
@@ -16,7 +16,7 @@ public class bank{
 
     static int[][] userRek = {
    	{120000,240000}, // agus
-    {150000,270000}, // arip
+    	{150000,270000}, // arip
    	{170000,220000}, // samsul
    	{0 , 0} // inputan 	
    	};
@@ -25,12 +25,12 @@ public class bank{
 
    	while(true){ //while1 menu teller
 	System.out.print("\n");
-    System.out.println("== Menu Teller ==");
-    System.out.println("== 1.Lihat Data Nasabah ==");
-    System.out.println("== 2.Input Data Nasabah ==");
-    System.out.println("== 3.Keluar menu teller ==");
-    System.out.print("Masukkan menu (1/2/3) : ");
-    menuAwal = sc.nextInt();
+   	 System.out.println("== Menu Teller ==");
+    	System.out.println("== 1.Lihat Data Nasabah ==");
+    	System.out.println("== 2.Input Data Nasabah ==");
+    	System.out.println("== 3.Keluar menu teller ==");
+    	System.out.print("Masukkan menu (1/2/3) : ");
+    	menuAwal = sc.nextInt();
 
     switch(menuAwal) {
   	case 1:
