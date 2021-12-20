@@ -37,7 +37,7 @@ public class App{
   	case 1:
   		//tampil semua data
 	    System.out.print("\n");
-	    System.out.print("ID|nama  \n");
+	    System.out.print("ID|Nama  \n");
     	for (int i=0; i<user.length; i++){
     	 	for (int j=0; j<2; j++){
             System.out.print(user[i][j]+"  ");
@@ -47,7 +47,7 @@ public class App{
 		System.out.print("\n");
 
 	    //memanggil id pada menu
-	    System.out.print("Masukkan id nomor urut :");
+	    System.out.print("Masukkan ID Rekening :");
 	    id = sc.nextInt();
 
 	    //menampilkan id yang di ambil
@@ -338,6 +338,3 @@ static void transfer(){
 } // close fungsi transfer
 
 } // close java
-
-//ceklist setor,tarik,lihata,input kelar! merapikan rules menu ! 
-//kurang riwayat transfer
